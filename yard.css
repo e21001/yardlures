@@ -32,6 +32,9 @@ a {
   justify-content: space-between;
   border-bottom: 2px solid #47763c;
 }
+.header-logo a {
+  color: #1c315d;
+}
 .wrapper {
   max-width: 1100px;
   margin: 0 auto;
@@ -50,7 +53,7 @@ a {
   margin: 0 auto;
   width: 120px;
   position: absolute;
-  top: 130px;
+  top: 150px;
   left: 43%;
 }
 .instruction a:hover {
@@ -67,6 +70,9 @@ a {
 footer {
   height: 200px;
 }
+footer a {
+  color: #1c315d;
+}
 .footer-contents {
   border-top: 2px solid #47763c;
   display: flex;
@@ -81,4 +87,60 @@ footer {
 }
 .footer-nav a {
   color: #1c315d;
+}
+.footer-nav a:hover {
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+form {
+  border-bottom: 1px solid #47763c;
+}
+form div {
+  margin-bottom: 10px;
+}
+label {
+  font-size: 15px
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  background: rgba(255, 255, 255, .2);
+  border: 1px solid #47763c;
+  border-radius: 4px;
+  padding-top: 10px;
+  font-size: 15px;
+}
+textarea {
+  width: 500px;
+  height: 60px;
+}
+input[type="submit"] {
+  border-radius: 4px;
+  background-color: #47763c;
+  opacity: 0.8;
+  padding: 10px 40px;
+  margin-bottom: 30px;
+  color: #1c315d;
+  box-shadow: 0px 4px #000;
+}
+input[type="submit"]:hover {
+  opacity: 1;
+}
+input[type="submit"]:active {
+  box-shadow: none;
+  position: relative;
+  top: 4px;
+}
+#sns {
+  margin-bottom: 150px;
+}
+#sns .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.sub-title {
+  border-bottom: 1px solid #47763c;
+}
+.sns-box {
+  width: 30%;
 }
