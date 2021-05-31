@@ -3,8 +3,8 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
-    <title>yard_official-home</title>
-    <meta name="description" content="沖縄ハンドメイドルアー">
+    <title>yard_official-lineup</title>
+    <meta name="description" content="沖縄ハンドメイドルアーラインナップ">
     <!-- CSS -->
     <link rel="stylesheet" href="yard.css">
   </head>
@@ -21,20 +21,24 @@
           </ul>
         </nav>
     </header>
-    <main class="main-page wrapper">
-      <div class="instruction">
-        <div class="lure-name"><h1>Yardlure</h1></div>
-        <p>沖縄のニート大学生が開発、制作。</p>
-        <img src="images/fisherman.png" alt="">
-        <a href="#">一応見てみる</a>
-      </div>
-    </main>
+    <div class="yard_linup wrapper">
+      <h3>LINEUP</h3>
+      <form action="yard_confilm.php" method="post">
+        <div class="yard-item">
+          <img src="#" alt="ルアーの写真" class="yard-item-image">
+          <h3 class="yard-item-name">ここにルアーの名前</h3>
+          <p class="yard-item-price">ここに値段</p>
+          <input type="text" value="0" name="">
+          <span>個</span>
+        </div>
+      </form>
+    </div>
     <footer>
       <div class="footer-contents wrapper">
         <a href="yard.html"><h1>YARDLURES</h1></a>
         <nav>
           <ul class="footer-nav">
-            <li><a href="yard_linup.html">LINEUP</a></li>
+            <li><a href="#">LINEUP</a></li>
             <li><a href="#">ABOUT</a></li>
             <li><a href="yard_contact.html">CONTACT</a></li>
           </ul>
