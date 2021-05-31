@@ -13,7 +13,9 @@ public function $getName() {
 public function $getImage() {
   return $this->image;
 }
-
+public function $getTaxIncludedPrice() {
+  return floor($this->price * 1.08);
+}
 
 }
 

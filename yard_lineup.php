@@ -27,12 +27,14 @@
     <div class="yard_linup wrapper">
       <h3>LINEUP</h3>
       <form action="yard_confilm.php" method="post">
+        <?php foreach($items as $item): ?>
         <div class="yard-items">
-          <img src="" alt="ルアーの写真" class="yard-item-image">
-          <h3 class="yard-item-name">ここにルアーの名前</h3>
-          <p class="yard-item-price">(税込)</p>
-          <input type="text" value="0" name="">
+          <img src="<?php echo $item->getImage() ?>" alt="ルアーの写真" class="yard-item-image">
+          <h3 class="yard-item-name"><?php echo $item->getName() ?></h3>
+          <p class="yard-item-price">¥<?php echo $item->$getTaxIncludedPrice() ?>(税込)</p>
+          <input type="text" value="0" name="<?php $item->getName() ?>">
           <span>個</span>
+        <?php endforeach ?>
         </div>
       </form>
       <input type="submit" value="注文する">
