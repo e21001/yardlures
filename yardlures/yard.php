@@ -12,12 +12,12 @@
   <body>
     <header class="page-header wrapper">
         <!-- ここは画像 -->
-        <div class="header-logo"><a href="yard.html"><h1>YARDLURES</h1></a></div>
+        <div class="header-logo"><a href="yard.php"><h1>YARDLURES</h1></a></div>
         <nav>
           <ul class="main-nav">
             <li><a href="yard_lineup.php">LINEUP</a></li>
             <li><a href="#">ABOUT</a></li>
-            <li><a href="yard_contact.html">CONTACT</a></li>
+            <li><a href="yard_contact.php">CONTACT</a></li>
           </ul>
         </nav>
     </header>
@@ -36,7 +36,7 @@
           <ul class="footer-nav">
             <li><a href="yard_lineup.php">LINEUP</a></li>
             <li><a href="#">ABOUT</a></li>
-            <li><a href="yard_contact.html">CONTACT</a></li>
+            <li><a href="yard_contact.php">CONTACT</a></li>
           </ul>
         </nav>
       </div>
