@@ -1,5 +1,7 @@
-<?php require_once('yard_data.php')?>
-
+<?php
+require_once('yard_item.php');
+require_once('yard_data.php');
+?>
 
 <!DOCTYPE html>
 <!DOCTYPE html>
