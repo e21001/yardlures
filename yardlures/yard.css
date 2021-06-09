@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+/* 共通部分 -------------------------------- */
 html {
   font-size: 100%;
 }
@@ -11,6 +11,7 @@ body {
 a {
   text-decoration: none;
 }
+/* ヘッダー部分 ------------------------------- */
 .main-nav {
   list-style: none;
   display: flex;
@@ -35,6 +36,7 @@ a {
 .header-logo a {
   color: #1c315d;
 }
+/* HOME --------------------------------------- */
 .wrapper {
   max-width: 1100px;
   margin: 0 auto;
@@ -67,6 +69,7 @@ a {
   margin-top: -200px;
   max-width: 1200px;
 }
+/* フッター部分 ---------------------------------- */
 footer {
   height: 200px;
 }
@@ -92,6 +95,7 @@ footer a {
   color: #fff;
   text-shadow: 1px 1px 1px #000;
 }
+/*  お問い合わせ ---------------------------------- */
 form {
   border-bottom: 1px solid #47763c;
 }
@@ -143,4 +147,21 @@ input[type="submit"]:active {
 }
 .sns-box {
   width: 30%;
+}
+/* ラインナップ部分 ----------------------------------- */
+h3.lineup-title {
+  font-size: 30px;
+  text-align: center;
+}
+.parent-lineup {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.yard-items {
+  display: inline-block;
+  justify-content: space-between;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 20px;
 }

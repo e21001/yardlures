@@ -21,6 +21,7 @@ $items = array($lure1,$lure2,$lure3,$lure4);
 
 ?>
 
+
 <!DOCTYPE html>
 <html lang="ja">
   <head>
@@ -45,8 +46,7 @@ $items = array($lure1,$lure2,$lure3,$lure4);
     </header>
     <div class="yard_linup wrapper">
       <h3 class="lineup-title">LINEUP</h3>
-    <form action="yard_confilm.php" method="post">
-      <div class="parent-lineup">
+      <form action="yard_confilm.php" method="post">
         <?php foreach($items as $item): ?>
         <div class="yard-items">
           <img src="<?php echo $item->image ?>" alt="ルアーの写真" class="yard-item-image">
@@ -55,10 +55,9 @@ $items = array($lure1,$lure2,$lure3,$lure4);
           <input type="text" value="0" name="#">
           <span>個</span>
         </div>
-        <?php endforeach ?>
-      </div>
-      <input class="order-btn" type="submit" value="注文する">
-    </form>
+      <?php endforeach ?>
+      </form>
+      <input type="submit" value="注文する">
     </div>
     <footer>
       <div class="footer-contents wrapper">
